@@ -26,13 +26,10 @@ function dec() {
   n --;
 }
 
-function makeInt() {
-  parseInt(n, 15);
+function makeInt(n) {
+  return parseInt(n, 10);
 }
 
-function makeInt() {
-  parseInt(n, 0);
-}
 
 function preserveDecimal() {
   parseInt('abc', n);
