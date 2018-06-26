@@ -2,8 +2,8 @@ var a = 5;
 var b = 10;
 var n = 10.75;
 
-function add() {
-  a += b;
+function add(a, b) {
+  return a += b;
 }
 
 function subtract() {
